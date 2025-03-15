@@ -4,21 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a class="header-logo" href="./index.html"
+          ><span class="header-logo-accent">Web</span>Studio</a
+        >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a class="nav-item" href="">Studio</a></li>
+          <li><a class="nav-item" href="">Portfolio</a></li>
+          <li><a class="nav-item" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="address-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="address-item" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -109,7 +133,12 @@
         <h2>Our Portfolio</h2>
         <ul>
           <li>
-            <img src="./images/banking_app.jpg" alt="Screenshots from app" />
+            <img
+              src="./images/banking_app.jpg"
+              alt="Screenshots from app"
+              width="360"
+              height="300"
+            />
             <h3>Banking App</h3>
             <p>App</p>
           </li>
@@ -117,20 +146,29 @@
             <img
               src="./images/cashless_payment.jpg"
               alt="Payment via mobile phone"
+              width="360"
+              height="300"
             />
             <h3>Cashless Payment</h3>
             <p>Marketing</p>
           </li>
           <li>
             <img
-              src="/images/meditation_app.jpg"
+              src="./images/meditation_app.jpg"
               alt="Screens of notebook and mobile phone"
+              width="360"
+              height="300"
             />
             <h3>Meditation App</h3>
             <p>App</p>
           </li>
           <li>
-            <img src="./images/taxi_service.jpg" alt="Car wheel" />
+            <img
+              src="./images/taxi_service.jpg"
+              alt="Car wheel"
+              width="360"
+              height="300"
+            />
             <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
@@ -138,6 +176,8 @@
             <img
               src="./images/screen_illustrations.jpg"
               alt="Screens of mobile phone"
+              width="360"
+              height="300"
             />
             <h3>Screen Illustrations</h3>
             <p>Design</p>
@@ -146,6 +186,8 @@
             <img
               src="./images/online_cources.jpg"
               alt="Woman holding mobile phone"
+              width="360"
+              height="300"
             />
             <h3>Online Courses</h3>
             <p>Marketing</p>
