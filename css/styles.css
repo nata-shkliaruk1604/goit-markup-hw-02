@@ -23,11 +23,11 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo-accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .header-logo:hover,
@@ -46,6 +46,10 @@ a {
 .nav-item:hover,
 .nav-item:focus {
     color: #404BBF;
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .address-item {
@@ -102,16 +106,23 @@ a {
     letter-spacing: 0.02em;
 }
 
+.team-section {
+    background: #f4f4fd;
+}
+
 .team-section-header, 
 .portfolio-section-header {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-member,
 .portfolio-header {
@@ -133,7 +144,6 @@ a {
 
 .portfolio-list-item {}
 
-.portfolio-section-header,
 .portfolio-header,
 .portfolio-item {
     text-align: left;
